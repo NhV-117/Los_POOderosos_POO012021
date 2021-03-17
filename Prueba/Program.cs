@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Prueba
 {
@@ -15,12 +15,12 @@ namespace Prueba
             Console.Write("Enter a value for b: ");
             b = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Adding {a} + {b} equals {sum(a,b)}");
+            Console.WriteLine($"Subtracting {a} - {b} equals {subt(a,b)}");
         }
 
-        public static int sum(int a, int b)
+        public static int subt(int a, int b)
         {
-            return a + b;
+            return a - b;
         }
     }
 }
